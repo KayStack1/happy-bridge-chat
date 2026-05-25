@@ -176,7 +176,7 @@ function Why() {
         <div>
           <div className="text-xs font-bold uppercase tracking-widest text-secondary">Why ClassBridge</div>
           <h2 className="mt-3 font-display text-4xl sm:text-5xl font-bold text-primary-foreground">
-            She's tired of <em className="not-italic text-secondary">searching</em> — but you don't have to.
+            Are you tired of <em className="not-italic text-secondary">searching</em>?<br />Look no further.
           </h2>
           <p className="mt-5 text-lg text-primary-foreground/80 max-w-lg">
             Stop scrolling through endless after-school programs. We are here — a complete, personalized solution your child will actually look forward to.
