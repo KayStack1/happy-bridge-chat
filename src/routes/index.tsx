@@ -249,7 +249,7 @@ function Contact() {
                   <Mail className="size-6" />
                 </div>
                 <div className="text-xs uppercase tracking-wider text-muted-foreground mt-1">Email</div>
-                <div className="font-semibold text-primary text-sm break-all">{EMAIL}</div>
+                <div className="font-semibold text-primary text-sm whitespace-nowrap">{EMAIL}</div>
               </a>
             </div>
           </div>
