@@ -122,9 +122,6 @@ function Hero() {
                 <div className="font-semibold text-primary text-sm">Every learner</div>
               </div>
             </div>
-            <div className="absolute -top-4 -right-4 bg-accent text-accent-foreground rounded-2xl shadow-xl px-4 py-3 font-display font-bold">
-              1 + 3 = 4 ✓
-            </div>
           </div>
         </div>
       </div>
