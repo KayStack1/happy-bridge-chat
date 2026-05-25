@@ -76,7 +76,7 @@ function Hero() {
             <Sparkles className="size-3.5" /> Connect! Learn! Succeed!
           </div>
           <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold text-primary leading-[1.05]">
-            Your child studies <em className="not-italic text-accent">but still</em> struggles.
+            Your child studies <em className="not-italic text-accent">but still</em> struggles?
           </h1>
           <p className="mt-6 text-2xl font-display font-medium text-foreground/80">
             Let's change that.
