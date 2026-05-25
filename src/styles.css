@@ -164,13 +164,13 @@
 }
 
 @keyframes pulse-ring {
-  0% { box-shadow: 0 0 0 0 oklch(0.65 0.18 145 / 0.5); }
-  70% { box-shadow: 0 0 0 18px oklch(0.65 0.18 145 / 0); }
+  0% { box-shadow: 0 0 0 0 oklch(0.65 0.18 145 / 0.55); }
+  70% { box-shadow: 0 0 0 14px oklch(0.65 0.18 145 / 0); }
   100% { box-shadow: 0 0 0 0 oklch(0.65 0.18 145 / 0); }
 }
 
 .animate-float { animation: float 6s ease-in-out infinite; }
-.animate-pulse-ring { animation: pulse-ring 2s ease-out infinite; }
+.animate-pulse-ring { animation: pulse-ring 2.5s ease-out infinite; }
 
 .bg-grain {
   background-image: radial-gradient(circle at 1px 1px, oklch(0.32 0.08 165 / 0.08) 1px, transparent 0);
