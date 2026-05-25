@@ -13,7 +13,7 @@ const EMAIL = "classbridgeacademy@gmail.com";
 
 const subjects = [
   { icon: Calculator, title: "Mathematics", desc: "Foundations to advanced problem-solving" },
-  { icon: BookOpen, title: "Language Arts", desc: "English, Spanish, French & Dutch" },
+  { icon: BookOpen, title: "Language Arts", desc: "English, Spanish, French, Yoruba & Dutch" },
   { icon: Code2, title: "Coding", desc: "Scratch, Python & JavaScript basics" },
   { icon: Beaker, title: "Sciences", desc: "Curiosity-led, concept-first learning" },
   { icon: GraduationCap, title: "11+ Exam Prep", desc: "Structured prep, proven results" },
