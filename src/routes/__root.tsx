@@ -72,14 +72,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "ClassBridge Academy — Connect! Learn! Succeed!" },
+      { name: "description", content: "Personalized tutoring for your child. Mathematics, Languages, Coding, Sciences, 11+ exam prep and more. Book a free trial today." },
+      { name: "author", content: "ClassBridge Academy" },
+      { property: "og:title", content: "ClassBridge Academy — Connect! Learn! Succeed!" },
+      { property: "og:description", content: "Personalized tutors that transform your child's learning journey." },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       {
