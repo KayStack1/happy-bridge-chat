@@ -7,7 +7,7 @@ export const Route = createFileRoute("/")({
 });
 
 const WHATSAPP_NUMBER = "2348055894414";
-const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hi ClassBridge Academy! I'd like to learn more about your tutoring services.")}`;
+const WHATSAPP_URL = `https://api.whatsapp.com/send?phone=${WHATSAPP_NUMBER}&text=${encodeURIComponent("Hi ClassBridge Academy! I'd like to learn more about your tutoring services.")}`;
 const DIRECT_CALL = "+2348105379294";
 const EMAIL = "classbridgeacademy@gmail.com";
 
