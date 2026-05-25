@@ -7,7 +7,7 @@ export const Route = createFileRoute("/")({
 });
 
 const WHATSAPP_NUMBER = "2348055894414";
-const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hi ClassBridge Academy! I'd like to book a free trial for my child.")}`;
+const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hi ClassBridge Academy! I'd like to learn more about your tutoring services.")}`;
 const DIRECT_CALL = "+2348105379294";
 const EMAIL = "classbridgeacademy@gmail.com";
 
@@ -91,7 +91,7 @@ function Hero() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-full bg-primary text-primary-foreground px-7 py-4 font-semibold shadow-[var(--shadow-soft)] hover:opacity-90 transition-all hover:scale-[1.02]"
             >
-              Book a Free Trial <ArrowRight className="size-4" />
+              Get in Touch <ArrowRight className="size-4" />
             </a>
             <a
               href={`tel:${DIRECT_CALL}`}
@@ -100,7 +100,7 @@ function Hero() {
               <Phone className="size-4" /> {DIRECT_CALL}
             </a>
           </div>
-          <p className="mt-4 text-sm text-muted-foreground italic">Give it a trial — completely free.</p>
+          <p className="mt-4 text-sm text-muted-foreground italic">Reach out — we're ready to help.</p>
         </div>
 
         <div className="relative">
@@ -168,7 +168,7 @@ function Why() {
     "Carefully matched, vetted tutors",
     "Flexible online sessions, anywhere",
     "Progress reports parents understand",
-    "Trial your first session free",
+    "Personalized sessions, tailored to your child",
     "Curriculum-aligned across regions",
     "Confidence-first teaching style",
   ];
@@ -218,7 +218,7 @@ function Contact() {
           <div className="relative">
             <div className="text-xs font-bold uppercase tracking-widest text-accent">Get in touch</div>
             <h2 className="mt-3 font-display text-4xl sm:text-5xl font-bold text-primary">
-              Book your child's free trial today.
+              Start your child's learning journey today.
             </h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-xl mx-auto">
               One quick chat is all it takes. Reach us on WhatsApp, call directly, or send an email.
