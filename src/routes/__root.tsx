@@ -76,9 +76,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Personalized tutoring for your child. Mathematics, Languages, Coding, Sciences, 11+ exam prep and more. Book a free trial today." },
       { name: "author", content: "ClassBridge Academy" },
       { property: "og:title", content: "ClassBridge Academy — Connect! Learn! Succeed!" },
-      { property: "og:description", content: "Personalized tutors that transform your child's learning journey." },
+      { property: "og:description", content: "Personalized tutoring for your child. Mathematics, Languages, Coding, Sciences, 11+ exam prep and more. Book a free trial today." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "ClassBridge Academy — Connect! Learn! Succeed!" },
+      { name: "twitter:description", content: "Personalized tutoring for your child. Mathematics, Languages, Coding, Sciences, 11+ exam prep and more. Book a free trial today." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/aa9ccd2b-a508-4e2e-8798-2ebb801ee700/id-preview-4a80ef24--91aa8d40-30e4-41b0-ab9f-8be2a5533034.lovable.app-1779732802717.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/aa9ccd2b-a508-4e2e-8798-2ebb801ee700/id-preview-4a80ef24--91aa8d40-30e4-41b0-ab9f-8be2a5533034.lovable.app-1779732802717.png" },
     ],
     links: [
       {
