@@ -8,7 +8,7 @@ export const Route = createFileRoute("/")({
 
 const WHATSAPP_NUMBER = "2348055894414";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hi ClassBridge Academy! I'd like to book a free trial for my child.")}`;
-const DIRECT_CALL = "08105379294";
+const DIRECT_CALL = "+2348105379294";
 const EMAIL = "classbridgeacademy@gmail.com";
 
 const subjects = [
@@ -235,7 +235,7 @@ function Contact() {
                   <MessageCircle className="size-6" />
                 </div>
                 <div className="text-xs uppercase tracking-wider text-muted-foreground mt-1">WhatsApp</div>
-                <div className="font-semibold text-primary">08055894414</div>
+                <div className="font-semibold text-primary">+2348055894414</div>
               </a>
               <a href={`tel:${DIRECT_CALL}`} className="group rounded-2xl border border-border p-5 hover:border-primary/40 transition flex flex-col items-center gap-2">
                 <div className="flex size-12 items-center justify-center rounded-xl bg-primary text-primary-foreground">
